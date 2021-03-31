@@ -92,7 +92,7 @@ export default function Form() {
 
   return (
     <View style={styles.form}>
-      <Text style={styles.text}>Selecione os parâmetros:</Text>
+      <Text style={styles.text}>Preencha os campos:</Text>
 
       <TextInput
         onChangeText={handleValueChange('name')}
@@ -242,6 +242,7 @@ const styles = StyleSheet.create({
     padding: 20
   },
   text: {
+    fontSize: 16,
     marginBottom: 20
   },
   input: {
